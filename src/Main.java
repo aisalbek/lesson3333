@@ -4,7 +4,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Random random = new Random();
-        int[]myArray = new int[10];
+        int[]myArray = new int[15];
         for (int i = 0; i <myArray.length ; i++) {
            myArray[i]= random.nextInt(-5,10);
         }
